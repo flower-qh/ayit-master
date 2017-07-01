@@ -1,0 +1,12 @@
+#cloudDiv {
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+#cloudDiv img{
+	float:left;
+}
+#cloudDiv_button{
+	float: left;
+	margin-left: -43px;
+}

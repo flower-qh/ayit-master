@@ -1,0 +1,110 @@
+<!doctype html>
+
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>计算机网络工程网站导航页</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+   
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+   
+</div>
+
+<div id="impress">
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>首先：推荐使用浏览器  <b>谷歌</b>,<b>火狐</b>，其他浏览器的话记得使用极速模式  ;  其次：点击任意位置回到首页</q>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <q>课程负责人：<strong>李阳</strong><br> 职  称：<strong>副教授</strong> <br>职  务：<strong>教研室主任</strong></q>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>   <strong>教学团队:</strong><br> 张炜,侯贵法,许研,尚鹏,李刚,韩毅,齐万华</q>
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">教学队伍整体结构</span>        
+        <h1>知识结构<sup>*</sup></h1>
+        <span class="footnote"><sup>*</sup> 副教授4人，讲师4人，高级职称占50%,硕士以上学位其中博士1人</span>
+    </div>
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>It’s a <strong>课程描述</strong> <br/>
+        本课程校内发展的主要历史沿革、主要特色及创新点、<br/> 本课程与国内外同类课程相比所处的水平、目前存在的不足等</p>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>人才培养定位: <span class="thoughts"></span></p>
+    </div>
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>网络专业：业培养具有较强的动手能力和一定的外语能力；系统地掌握网络工程的基本 <b>理论</b>与技术 </p>
+    </div>
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p><b class="positioning">课程</b>, <b class="rotating">定位</b> 和 <b class="scaling">培养</b> 目标</p>
+    </div>
+   <div id="tiny2" class="step" data-x="825" data-y="-2325" data-z="2000" data-rotate="150" data-scale="1">
+        <p>学生在掌握了计算机网络的基本原理和网络操作系统的概念、体系结构及有关协议的扎实理论知识基础上进一步培养和锻炼学生实际动手和工程实践能力，使之能够在实际环境中抽象出用户需求，设计并规划网络拓扑，分析并选购“经济适用”网络设备 </p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p><b class="imagination">课程资源 </b></p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>网上教学资源</p>
+        <p>实验课授课视频</p>
+        <p>优质教学PPT 在线学习</p>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>^_^其他需要说明的问题  =></p>
+    </div>
+
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4800" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p>课程组不仅认真建设课程教学资源，而且也重视设计网站平台</p>
+        <span class="footnote">1、首页布局模式，采用个性化的仿WIN8方化模块的响应式设计。多种设备兼容</span>
+        <span  class="footnote">2、计算机网络工程精品课程，网站设计使用到先进的HTML5开发技术，方便学生任何时间任何地点使用手机在线学习</span>
+    </div>
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>请使用空格进行导航</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+document.onclick = function(){
+	 window.open("../index.html",'_self');
+}
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+

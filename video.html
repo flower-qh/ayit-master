@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>播放音频</title>
+</head>
+
+<body>
+    <audio src="images/jtnyjgw.mp3" controls="controls">您的浏览器不支持</audio><br>
+   <!--或者一下这种-->
+  <!-- <button onclick="clickA()">音乐播放/暂停</button>
+   <audio id="audio" src="images/jtnyjgw.mp3">您的浏览器不支持</audio><br><br>-->
+   
+    
+    <button onclick="clickV()">视频播放/暂停</button>
+    <button onclick="clickBig()">放大</button>
+    <button onclick="clickSmall()">缩小</button><br>
+    <video id="video" src="images/HTML5%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE.mp4" width="500px" >您的浏览器不支持</video>
+    <!--<video id="video src="images/HTML5%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE.mp4" controls="controls"  width="500px">您的浏览器不支持</video>-->
+    
+    <script>
+        var a = document.getElementById("audio");
+        function clickA(){
+            if(a.paused){
+                a.play();
+            }else{
+                a.pause();
+            }
+        }
+        
+        var v = document.getElementById("video");
+        function clickV(){
+            if(v.paused){
+                v.play();
+            }else{
+                v.pause();
+            }
+        }
+        function clickBig(){
+            v.width = 800;
+            v.height = 800;
+        }
+        function clickSmall(){
+            v.width = 300;
+            v.height = 300;
+        }
+    </script>
+</body>
+
+</html>

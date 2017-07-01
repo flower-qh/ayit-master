@@ -1,0 +1,159 @@
+.main{	
+	margin: 1px auto 0px;
+	width: 100%;
+	margin-top: 15px;
+}
+.main-nav{
+	position: relative;
+	width:875px;
+	height: 40px;
+	margin: 0px auto;
+	background: #73a9f0 !important;
+	padding-left: 25px;
+}
+.main-nav-header .img{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.main-nav-header .h4{
+	float: left;
+    margin-left: 50px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+iframe{
+	border: 0px !important;
+}
+.main-nav-li{
+	text-align: center;
+	height: 40px;
+	transition: all .5s; 
+	float: left;
+	padding: 0px 40px;
+	background: #73A9F0;
+	position: relative;
+}
+.main-nav-li:hover{
+	background-color:#8BEBE7;
+	cursor: pointer;
+	border-radius:0px 0px 10px 10px ;
+	-webkit-box-shadow: 5px 5px 5px gray;
+}
+ .main-nav-li-link{
+ 	width: 100%;
+	line-height: 40px;
+	font-size: 18px;
+/*	color: #000 !important;*/
+	text-align: center;
+	transition: all .5s;
+}
+.main-nav-li:hover .main-nav-li-link{
+	color:rgba(0,0,0,0.9) !important;
+}
+.sub-nav{
+	clear: both;
+	background: #73A9F0;
+	border-radius: 5px;
+	width:900px;
+	margin:0px auto;
+	height:40px;
+	border-bottom: 1px solid #d9edf4;
+}
+.sub-nav-p{
+	color:#282f2f;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 1px;
+	line-height: 40px;
+}
+.sub-nav-log{
+	width: 40px;
+	margin: 5px 10px 5px 15px;
+	float: left;
+
+}
+.main-body{
+	margin:0px auto;
+	width:900px;
+	height:1000px;
+}
+
+#main-nav-li-hide{
+	 display: none;
+}
+.hider,.hider_one,.hider_two,.hider_three{
+	cursor: pointer;
+	display: none;
+	width: 160px;
+	height: 35px;
+	line-height: 35px;
+	color: #777777 !important;
+	text-align: center;
+	transition: all .5s;
+	font-size: 12px;
+	top: -10px;
+	position: relative;
+	z-index: 99;
+	background:#84CCC9;
+	clear: both;
+}
+.main-nav-li-zhsx{
+	top: -60px;
+}
+
+.hider:hover{
+	background:  #63C0D2;
+}
+.hider_one:hover{
+	background:  #63C0D2;
+}
+.hider_two:hover{
+	background:  #63C0D2;
+}
+.hider_three:hover{
+	background:  #63C0D2;
+}
+
+
+
+.fly{
+	width: 130px;
+	height: 130px;
+	position: fixed;
+	background: url(../img/tishi.png) no-repeat;
+	bottom:0px;
+	right: 0px;
+	display: block;
+}
+.fly_x{
+	position: absolute;
+	right: 0px;
+}
+.fly_p{
+	color: #FFF;
+	width: 80px;
+	margin-left: 25px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+@media only screen and (max-width: 1180px) {
+
+.fly{
+	transform: scale(0.8);
+	bottom: -13px;
+	right: -13px;
+}
+
+}
+@media only screen and (max-width: 600px) {
+
+.fly{
+	transform: scale(0.5);
+	bottom: -30px;
+	right: -30px;
+}
+
+}
